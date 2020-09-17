@@ -455,4 +455,4 @@ function play(guild, song) {
     serverQueue.textChannel.send(`Start playing: **${song.title}**`);
 }
 
-bot.login(token.token);
+Client.login(process.env.TOKEN);
