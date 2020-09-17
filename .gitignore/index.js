@@ -43,4 +43,4 @@ dispatcher.on("error", err => {
 });
 
 
-Client.login("");
+Client.login(process.env.TOKEN);
