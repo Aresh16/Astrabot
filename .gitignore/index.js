@@ -18,7 +18,7 @@ if(message.content.startsWith(prefix + "play")){
         message.member.voice.channel.join().then(connection => {
             let args = message.content.split(" ");
 
-            if($args[1]){
+            if(!args[1]){
                 message.reply("Lien de la vidéo non ou mal renseigné.");
             }
             
