@@ -43,4 +43,4 @@ dispatcher.on("error", err => {
 });
 
 
-Client.login("NzU2MDgyMTA3MzczMTkxMTc5.X2MqVQ.8dPLEu5eBG8sLRg-l0UZGr8w7GA");
+Client.login(process.env.TOKEN);
